@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<VAST version="2.0">
+	<Ad id="preroll-3241">
+		<InLine>
+			<AdSystem>IntegralAds</AdSystem>
+			<AdTitle>IntegralAds VAST 2.0 Ad Wrapper</AdTitle>
+			<Description/>
+						<Impression id="Integral Ad Science">
+				<![CDATA[https://static.adsafeprotected.com/skeleton.gif]]>
+					</Impression>
+			<Creatives>
+				<Creative id="xxxxxx" >
+					<Linear>
+													<Duration>00:00:15</Duration>
+												<VideoClicks>
+							<ClickThrough/>
+						</VideoClicks>
+						<MediaFiles>
+							                                <MediaFile delivery="progressive" width="300" height="250" type="application/x-shockwave-flash" apiFramework="VPAID">
+                                    <![CDATA[https://static.adsafeprotected.com/IASVideo.swf?anId=96921&ias_ad_duration=15&chanId=3&campId=nlsn49609xx&placementId=xxx&creativeId=&originalVast=https://ad.doubleclick.net/ddm/pfadx/N8473.153498MCNETWORK/B10645842.142899201;sz=0x0;ord=1234;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml]]>
+                                </MediaFile>
+																						<MediaFile delivery="progressive" width="300" height="250" type="application/x-javascript" apiFramework="VPAID">
+									<![CDATA[https://pixel.adsafeprotected.com/IASVideo.js?anId=96921&ias_ad_duration=15&chanId=3&campId=nlsn49609xx&placementId=xxx&creativeId=&originalVast=https://ad.doubleclick.net/ddm/pfadx/N8473.153498MCNETWORK/B10645842.142899201;sz=0x0;ord=1234;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml]]>
+								</MediaFile>
+                                <MediaFile delivery="progressive" width="300" height="250" type="application/javascript" apiFramework="VPAID">
+                                    <![CDATA[https://pixel.adsafeprotected.com/IASVideo.js?anId=96921&ias_ad_duration=15&chanId=3&campId=nlsn49609xx&placementId=xxx&creativeId=&originalVast=https://ad.doubleclick.net/ddm/pfadx/N8473.153498MCNETWORK/B10645842.142899201;sz=0x0;ord=1234;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml]]>
+                                </MediaFile>
+													</MediaFiles>
+					</Linear>
+				</Creative>
+				
+			</Creatives>
+		</InLine>
+	</Ad>
+	    <Ad id="preroll-234">
+        <InLine>
+            <AdSystem>Innovid Ads</AdSystem>
+            <AdTitle><![CDATA[Certification Testing VPAID - MRAID - Click on Main copy (5/20/2016)]]></AdTitle>
+            <Impression><![CDATA[about:blank]]></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" width="16" height="9" type="application/javascript" apiFramework="VPAID"><![CDATA[http://static.innovid.com/mobileapps/js/vpaid/1h41kg?cb=0ef1c87f-3745-1b3f-7978-b942737337c7&deviceid=&ivc=[ecp]]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

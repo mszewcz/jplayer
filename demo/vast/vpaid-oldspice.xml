@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                                                                                                                                                      
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+    <Ad id="preroll-4234">
+        <InLine>
+            <AdSystem>2.0</AdSystem>
+            <AdTitle>PL_Old_Spice_iVideo_eGRPsothers_Absolute_082016_TVP_non_HE_TVP_men_content</AdTitle>
+                <Impression></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:19</Duration>
+                          
+                        <MediaFiles>
+                             <MediaFile type="application/x-shockwave-flash" apiFramework="VPAID" height="432" width="768" delivery="progressive"> <![CDATA[http://vastx.moatads.com/swf/moatwrapper.swf?vast=https%3a%2f%2fmy.adocean.pl%2f_%2fad.xml%3fid%3dbBQx_pBvXOfPRCGwvDY2iQTDMg0tcf4qUmgWJKlcrWb.i7&level1=PL_Old%20Spice_iVideo-eGRPsothers_Absolute_082016&level2=TVP&level3=non-HE%2fTVP_men_content&level4=undefined&slicer1=undefined&slicer2=undefined&pcode=mediacompgpolandgemiusvideo682138782669&spvb=1]]> </MediaFile> <MediaFile type="application/javascript" apiFramework="VPAID" height="432" width="768" delivery="progressive"> <![CDATA[http://vastx.moatads.com/mediacompgpolandgemiusvideo682138782669/moatwrapper.js#vast=https%3a%2f%2fmy.adocean.pl%2f_%2fad.xml%3fid%3dbBQx_pBvXOfPRCGwvDY2iQTDMg0tcf4qUmgWJKlcrWb.i7&level1=PL_Old%20Spice_iVideo-eGRPsothers_Absolute_082016&level2=TVP&level3=non-HE%2fTVP_men_content&level4=undefined&slicer1=undefined&slicer2=undefined&pcode=mediacompgpolandgemiusvideo682138782669&spvb=1]]> </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                    
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

@@ -1,0 +1,122 @@
+/*
+ * The whole player gets the additional class "<prefix>ad" during linear ad playback
+ * this way you are able to customize all controlelements and more to match your GUI-restriction-needs:
+ */
+.ppad .ppnext,
+.ppad .ppprev,
+.ppad .pptitle {
+    display: none;
+    border: none;
+}
+
+.ppad .ppadmessage {
+    position: absolute;
+    font-size: 10px;
+    top: 0;
+    border: none;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    background: black;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    float: left;
+}
+
+.ppad .ppadmessage.admessage0 {
+    left: 0;
+    padding-right: 8px;
+}
+
+.ppad .ppadmessage.admessage1 {
+    right: 0;
+    padding-left: 8px;
+}
+
+@media all and (min-width: 0px) and (max-width: 415px) {
+  .ppad .ppadmessage.admessage1 {
+    display: none;
+  }
+}
+
+/*
+ * Ad-Skip option overlay:
+ */
+.ppadskip {
+    position: absolute;
+    padding-top: 2px;
+    top: 0;
+    right: 0px;
+    width: 85%;
+    height: 28px;
+    background-color: #333;
+    color: #fdfdfd;
+    line-height: 28px;
+}
+
+.ppadskip.unlocked {
+    cursor: pointer;
+    color: #fdfdfd;
+}
+
+
+
+/*
+ * Nonlinear Ad Overlay Styling:
+ * <div class="ppadoverlay active" data-pp-ima-func="container">
+ *     <div class="ppadoverlaywrapper">
+ *        <div class="ppadclose"></div>
+ *        <div class="ppadcontent"></div>
+ *     </div>
+ * </div>
+ */
+
+
+/* the overlay wrapper */
+.ppadoverlay {
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    bottom: 50px;
+    width: 100%;
+    z-index: 9998;
+}
+
+.ppadoverlaywrapper {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+
+.ppadcontent {
+    cursor: display; 
+    float: right;
+    right: -50%;
+    position: relative;
+}
+
+.ppadoverlay.active {
+    display: block;
+}
+
+.ppadoverlay.inactive {
+    display: block;
+}
+
+
+/* close button */
+.ppadclose {
+    background: url('overlayclose.jpg') center center no-repeat;
+    width: 10px;
+    height: 10px;    
+    cursor: pointer;
+    right: -50%;
+    margin-right: -10px;
+    position: absolute;
+    z-index: 9999;    
+}
+
+/* midroll cuepoints style */
+.ppcuepoint.ppcuepoint_group_midroll {
+    background: transparent;
+    border-left: 3px solid yellow;
+}

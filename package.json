@@ -1,0 +1,44 @@
+{
+    "name": "jplayer",
+    "title": "JPlayer",
+    "description": "HTML5 based video player",
+    "version": "1.8.23",
+    "author": "Radosław Włodkowski <radoslaw@wlodkowski.net>",
+    "contributors": [
+        {
+            "name": "Sascha Kluger, Spinning Airwhale Media",
+            "url": "http://www.spinningairwhale.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git.pzpn.pl:4422/lnp_ekosystem/player.git"
+    },
+    "main": "./build/jplayer.min.js",
+    "scripts": {
+        "build": "grunt",
+        "start": "grunt preview"
+    },
+    "dependencies": {
+        "core-js": "^2.5.7",
+        "dashjs": "^2.9.2",
+        "hls.js": "^0.11.0",
+        "jquery": "^3.3.1",
+        "projekktor": "github:fixedmachine/projekktor#1.8.2"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.3",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-bump": "^0.8.0",
+        "grunt-compare-size": "^0.4.0",
+        "grunt-contrib-clean": "1.x",
+        "grunt-contrib-compress": "1.x",
+        "grunt-contrib-copy": "1.x",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-jshint": "1.x",
+        "grunt-contrib-uglify": "^3.4.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-lineending": "^1.0.0",
+        "gzip-js": "^0.3.0"
+    }
+}

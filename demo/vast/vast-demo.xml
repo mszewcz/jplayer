@@ -1,0 +1,371 @@
+<VAST version="3.0">
+  <Ad id="preroll-01">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/preroll-01/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/preroll-01/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="1">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/preroll-01/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/preroll-01/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/preroll-01/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/preroll-01/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/preroll-01/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/preroll-01/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/preroll-01/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/preroll-01/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/preroll-01/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/preroll-01/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="preroll-02">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/preroll-02/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/preroll-02/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/preroll-02/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/preroll-02/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/preroll-02/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/preroll-02/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/preroll-02/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/preroll-02/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/preroll-02/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/preroll-02/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/preroll-02/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/preroll-02/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="preroll-03">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/preroll-03/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/preroll-03/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/preroll-03/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/preroll-03/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/preroll-03/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/preroll-03/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/preroll-03/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/preroll-03/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/preroll-03/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/preroll-03/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/preroll-03/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/preroll-03/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="midroll_1-01">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/midroll_1-01/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/midroll_1-01/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/midroll_1-01/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/midroll_1-01/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="midroll_1-02">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/midroll_1-02/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/midroll_1-02/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/midroll_1-02/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/midroll_1-02/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="midroll_1-03">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/midroll_1-03/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/midroll_1-03/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/midroll_1-03/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/midroll_1-03/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
+  <Ad id="midroll_2-01">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/midroll_2-01/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/midroll_2-01/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/midroll_2-01/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/midroll_2-01/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="midroll_3-01">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/midroll_3-01/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/midroll_3-01/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/midroll_3-01/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/midroll_3-01/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="" height="">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/x-flv" bitrate="" width="" height="">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="postroll-01">
+    <InLine>
+      <AdSystem version="2.0">AdOcean</AdSystem>
+      <AdTitle></AdTitle>
+      <Impression id="local"><![CDATA[//tracker.local/postroll-01/impression/local]]></Impression>
+      <Impression id="third_party"><![CDATA[//tracker.local/postroll-01/impression/third_party]]></Impression>
+      <Creatives>
+        <Creative id="2">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[//tracker.local/postroll-01/TrackingEvent/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[//tracker.local/postroll-01/TrackingEvent/start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[//tracker.local/postroll-01/TrackingEvent/midpoint]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[//tracker.local/postroll-01/TrackingEvent/firstQuartile]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[//tracker.local/postroll-01/TrackingEvent/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[//tracker.local/postroll-01/TrackingEvent/complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[//tracker.local/postroll-01/TrackingEvent/mute]]></Tracking>
+              <Tracking event="pause"><![CDATA[//tracker.local/postroll-01/TrackingEvent/pause]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[//tracker.local/postroll-01/TrackingEvent/fullscreen]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[//tracker.local/postroll-01/VideoClicks/ClickThrough]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="" width="320" height="180">
+              <![CDATA[/media/intro.hi.mp4]]>
+              </MediaFile>
+              <MediaFile id="2" delivery="progressive" type="video/mp4" bitrate="" width="640" height="360">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="3" delivery="progressive" type="video/mp4" bitrate="" width="1280" height="720">
+              <![CDATA[]]>
+              </MediaFile>
+              <MediaFile id="4" delivery="streaming" type="application/vnd.apple.mpegurl" bitrate="" width="1280" height="720">
+              <![CDATA[]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>

@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>JPlayer - DRM - MPEG-DASH + Widevine / PlayReady - RELATED ITEMS
+    </title>
+    <meta charset="UTF-8"/>
+    <!-- site styles -->
+
+    <!-- Load JPlayer css -->
+    <link rel="stylesheet" href="themes/jplayer/styles.min.css" type="text/css" media="screen"/>
+
+    <!-- Load jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- load projekktor js -->
+    <script type="text/javascript" src="jplayer.min.js"></script>
+    <script>
+        $(function () {
+            window.p = projekktor('#player', {
+                title: "JPlayer",
+                //poster: 'media/intro.png',
+                width: 640,
+                height: 380,
+                autoplay: false,
+                debug: true,
+                iframe: false,
+                platforms: ['browser', 'android', 'ios', 'mse', 'native', 'videojs'],
+                platformsConfig: {
+                    mse: {
+                        hlsjs: {
+                            src: 'platforms/mse/hlsjs/hls.min.js',
+                            initVars: {
+                                debug: false,
+                                capLevelToPlayerSize: true,
+                                startFragPrefech: true
+                            }
+                        },
+                        dashjs: {
+                            src: 'platforms/mse/dashjs/dash.all.min.js',
+                            initVars: {
+                                debug: false,
+                                fastSwitchEnabled: true,
+                                limitBitrateByPortal: true,
+                                usePixelRatioInLimitBitrateByPortal: true,
+                                enableBufferOccupancyABR: true
+                            }
+                        }
+                    },
+                    videojs: {
+                        src: 'platforms/videojs/videojs.vpaid.min.js',
+                        css: 'platforms/videojs/videojs.vpaid.min.css',
+                        initVars: {}
+                    }
+                },
+                plugins: [
+                    'ads',
+                    'controlbar',
+                    'display',
+                    'overlay',
+                    'related',
+                    'settings',
+                    'tracking'
+                ],
+                plugin_ads: {
+                    url: '/vast/vast-demo.xml',
+                    type: 'application/xml',
+                    withCredentials: false,
+                    pauseOnClick: false,
+                    vastNoCache: true,
+                    ownerId: 'mainvideo_0',
+                    adTypes: {
+                        preroll: {
+                            enabled: true,
+                            showOnMobile: true,
+                            key: 'preroll',
+
+                            // messages & countdown
+                            messages: [
+                                'Materiał rozpocznie się za %{m}:%{s}',
+                                'Dzięki reklamie oglądasz za darmo'
+                            ],
+                            icons: true,
+                            pauseAfter: true // pauza po bloku reklamowym
+                        },
+                        postroll: {
+                            enabled: true,
+                            showOnMobile: true,
+                            key: 'postroll',
+
+                            // messages & countdown
+                            messages: [
+                                'Reklama zakończy się za %{m}:%{s}',
+                                'Dzięki reklamie oglądasz za darmo'
+                            ],
+                            icons: true
+                        },
+                        midroll: {
+                            enabled: true,
+                            showOnMobile: false,
+                            key: ['midroll_1', 'midroll_2', 'midroll_3'],
+                            cat: ['midrolls_1', 'midrolls_2', 'midrolls_3'],
+
+                            // messages & countdown
+                            messages: [
+                                'Powrót do materiału za %{m}:%{s}',
+                                'Dzięki reklamie oglądasz za darmo'
+                            ],
+                            icons: true
+                        },
+                        companion: {
+                            enabled: false,
+                            showOnMobile: true,
+                            key: 'companion',
+                            destinationContainerIds: ['companiona', 'companionb', 'companionc']
+                        },
+                        overlay: {
+                            enabled: false,
+                            showOnMobile: false,
+                            key: 'overlay',
+                        }
+                    }
+                },
+                playlist: [
+                    {
+                        0: {
+                            src: './media/intro.hi.mp4',
+                            type: 'video/mp4'
+                        },
+                        config: {
+                            id: 'mainvideo_0',
+                            cat: 'videos'
+                        }
+                    }
+                ],
+                plugin_related: {
+                    showOnStart: false,
+                    enabled: true,
+                    embed: {
+                        enabled: false,
+                        code: '<' + 'if' + 'rame id="%{embedid}" src="%{playerurl}?vidid=%{ID}" width="640" height="385" frameborder="0"><' + '/if' + 'rame>',
+                        title: 'Embed this'
+                    },
+                    share: {
+                        enabled: false,
+                        code: 'http://%{playerurl}?vidid=%{ID}',
+                        title: 'Share me'
+                    },
+                    replay: {
+                        enabled: true,
+                        title: 'Replay'
+                    },
+                    related: {
+                        enabled: true,
+                        title: 'Related movies',
+                        items: [
+                            {
+                                poster: 'media/poster.png',
+                                url: '#',
+                                target: '_self',
+                                title: 'Related item 1',
+                                clickHandler: () => {
+                                    console.log('Related item 1 clicked');
+                                    return false;
+                                }
+                            },
+                            {
+                                poster: 'media/poster.png',
+                                url: '#',
+                                target: '_self',
+                                title: 'Related item 2',
+                                clickHandler: () => {
+                                    console.log('Related item 2 clicked');
+                                    return false;
+                                }
+                            },
+                            {
+                                poster: 'media/poster.png',
+                                url: '#',
+                                target: '_self',
+                                title: 'Related item 3',
+                                clickHandler: () => {
+                                    console.log('Related item 3 clicked');
+                                    return false;
+                                }
+                            },
+                            {
+                                poster: 'media/poster.png',
+                                url: '#',
+                                target: '_self',
+                                title: 'Related item 4',
+                                clickHandler: () => {
+                                    console.log('Related item 4 clicked');
+                                    return false;
+                                }
+                            }
+                        ],
+                        autoContinue: {
+                            enabled: true,
+                            timeout: 10
+                        }
+                    }
+                }
+            }, function (player) {
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+<h1>JPlayer - RELATED ITEMS demo</h1>
+
+<div id="player" class="projekktor">
+    <noscript>
+        <p>No JavaScript support.</p>
+    </noscript>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<VAST version="3.0">
+    <Ad id="preroll-567">
+        <InLine>
+            <AdSystem>Ad System</AdSystem>
+            <AdTitle>VPAID 2 Linear</AdTitle>
+            <Description>VPAID 2 Linear Video Ad</Description>
+            <Creatives>
+                <Creative sequence="1">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <AdParameters>
+                        <![CDATA[
+                            {"videos":[
+                                {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}],
+                            "attributes": {
+                                "desiredBitrate" : 256,
+                                "duration" : 30,
+                                "expanded" : false,
+                                "height" : 0,
+                                "icons" : "",
+                                "linear" : true,
+                                "remainingTime" : 30,
+                                "skippableState" : true,
+                                "viewMode" : "normal",
+                                "width" : 0,
+                                "volume" : 1.0
+                                }
+                            }
+                            ]]>
+                        </AdParameters>
+                        <VideoClicks>
+                            <ClickThrough id="GDFP">
+                                <![CDATA[ http://www.jwplayer.com ]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" apiFramework="VPAID" type="application/javascript">
+                                <![CDATA[ /vast/vpaid-2-test-jw.js]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

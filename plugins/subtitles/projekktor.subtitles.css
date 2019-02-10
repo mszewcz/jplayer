@@ -1,0 +1,41 @@
+/*
+.ppsubtitles  {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    width: 93%;
+    height: auto;
+    overflow: hidden;
+    color: #fdfdfd;
+    z-index: 1000;
+    border: 1px solid red;
+}
+
+.ppsubtitlesbtn.inactive,
+.ppsubtitles.inactive {
+    display: none;
+}
+
+.ppsubtitlesbtn.active,
+.ppsubtitles.active {
+    display: block;
+}
+
+.ppsubtitles div {
+    position: relative;
+}
+
+
+.ppsubtitlesbtn.off {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    display: block;
+}
+
+.ppsubtitlesbtn.on {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+*/

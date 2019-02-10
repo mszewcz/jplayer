@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="1hm14o">
+        <InLine>
+            <AdSystem>Varrando</AdSystem>
+            <AdTitle><![CDATA[Mobile Video QA]]></AdTitle>
+            <Impression><![CDATA[about:blank]]></Impression>
+            <Creatives>
+                <Creative id="w1-c1" sequence="1" adID="ad-id">
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="466" width="300" height="224" type="video/mp4" scalable="true" maintainAspectRatio="true"><![CDATA[http://cdn.jivox.com/21411/WP1_13890_21411_32251.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

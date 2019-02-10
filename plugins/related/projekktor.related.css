@@ -1,0 +1,197 @@
+.pprelated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    z-index: 100000;
+}
+.pprelated .wrapper {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.pprelated ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pprelated.inactive,
+.pprelated .inactive {
+    display: none !important;
+}
+.pprelated.active,
+.pprelated .active {
+    display: block;
+}
+.pprelated ul li {
+    list-style: none;
+}
+.pprelated ul li:before,
+.pprelated ul li:after {
+    display: table;
+}
+.pprelated ul li:after {
+     clear: both;
+}
+.pprelated h2 {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+.pprelated textarea {
+    width: 100%;
+    height: 100%;
+    outline: 0 none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: transparent;
+    color: #fdfdfd;
+    border: 1px solid #fcfcfc;
+    resize: none;
+    cursor: pointer;
+}
+.pprelated .pprelatedone {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+.pprelated .pprelatedone ul:before {
+    display: table;
+    content: '';
+}
+.pprelated .pprelatedone ul:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.pprelated .pprelatedreplay {
+    display: block;
+    float: left;
+    width: 14%;
+    margin-right: 5%;
+}
+.pprelated .pprelatedreplay .container {
+    display: table;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+.pprelated .pprelatedreplay .container .replay {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    bottom: 6px;
+    right: 6px;
+    background: rgba(0,0,0,.7) url(replay.png) no-repeat 8px 8px;
+    background-size: 47px 47px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    z-index: 2;
+}
+.pprelated .pprelatedreplay .replay:hover,
+.pprelated .pprelatedreplay .replay:active {
+     background-color: rgba(255, 255, 255, 0.4);
+}
+.pprelated .wrapper .pprelatedone .pprelatedreplay .csvg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pprelated .wrapper .pprelatedone .pprelatedreplay .csvg .cpath {
+    stroke: #db3836;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: square;
+    animation: progress linear forwards;
+    -webkit-animation: progress linear forwards;
+}
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+    100% {
+        stroke-dasharray: 100 100;
+    }
+}
+.pprelated .pprelatedembed {
+    display: block;
+    float: left;
+    width: 38%;
+    margin-right: 5%;
+}
+.pprelated .pprelatedshare {
+    display: block;
+    float: left;
+    width: 38%;
+}
+.pprelated .pprelatedtwo {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 45%;
+    margin: 0;
+    padding: 0;
+}
+.pprelated .pprelatedtwo h2 {
+    text-align: left;
+}
+.pprelated .pprelateditems {
+    margin: 0 -1%;
+}
+.pprelated .pprelateditems:before,
+.pprelated .pprelateditems:after {
+               display: table;
+           }
+.pprelated .pprelateditems:after {
+     clear: both;
+ }
+.pprelated .pprelateditem {
+    position: relative;
+    display: block;
+    float: left;
+    width: 23%;
+    margin: 1%;
+}
+.pprelated .pprelateditem .title {
+    display: none;
+}
+.pprelated .pprelateditem .image {
+    display: block;
+}
+.pprelated .pprelateditem .image img {
+    display: block;
+    width: 100%;
+}
+.pprelated .pprelateditem.active .title {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(204, 204, 204, 0.7)); /* Firefox 3.6+ */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.7)), to(rgba(204, 204, 204, 0.7))); /* Safari */
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #fff;
+}
+.pprelated .pprelateditem + .pprelateditem + .pprelateditem + .pprelateditem + .pprelateditem {
+    display: none;
+}
