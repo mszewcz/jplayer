@@ -82,7 +82,6 @@ module.exports = function (grunt) {
             all: {
                 dest: "temp/jplayer.js",
                 src: [
-                    "node_modules/core-js/client/shim.js",
                     "src/ssr-fix-start.js",
                     libs.projekktor + "src/controller/projekktor.js",
                     libs.projekktor + "src/controller/projekktor.config.version.js",
@@ -114,9 +113,9 @@ module.exports = function (grunt) {
                         flag: "videojs",
                         src: libs.projekktor + "src/models/player.videojs.js"
                     },
-                    libs.projekktor + "src/plugins/projekktor.display.js",
-                    libs.projekktor + "src/plugins/projekktor.controlbar.js",
-                    libs.projekktor + "src/plugins/projekktor.settings.js",
+                    pluginspath + "display/projekktor.display.js",
+                    pluginspath + "controlbar/projekktor.controlbar.js",
+                    pluginspath + "settings/projekktor.settings.js",
                     //libs.projekktor + "src/plugins/projekktor.contextmenu.js",
                     {
                         user: true,

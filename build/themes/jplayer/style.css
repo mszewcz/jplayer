@@ -140,7 +140,7 @@ display plugin
     background: url("start.png") no-repeat left bottom transparent;
 }
 .ppstart:active {
-    background: url("start.png") no-repeat left -169px transparent;
+    background: url("start.png") no-repeat left bottom transparent;
 }
 
 .ppbuffering {
@@ -486,7 +486,9 @@ background: url("maccaco.png") no-repeat -91px top transparent;
 
 /* previous / next item */
 .ppnext,
-.ppprev {
+.ppnextC,
+.ppprev,
+.ppprevC {
     display:block;
     background: url("maccaco.png") no-repeat -59px top transparent;
     width: 30px;
@@ -495,22 +497,22 @@ background: url("maccaco.png") no-repeat -91px top transparent;
     border-left:1px solid #413e3e;
     border-right:1px solid #000;
 }
-.ppnext { border-right:none;}
-.ppnext:hover {
+.ppnext, .ppnextC { border-right:none;}
+.ppnext:hover, .ppnextC:hover {
     background: url("maccaco.png") no-repeat -59px -35px transparent;
 }
-.ppnext:active {
+.ppnext:active, .ppnextC:active {
     background: url("maccaco.png") no-repeat -59px -36px transparent;
 }
 
-.ppprev {
+.ppprev, .ppprevC {
     background: url("maccaco.png") no-repeat -32px top transparent;
 }
 
-.ppprev:hover {
+.ppprev:hover, .ppprevC:hover {
     background: url("maccaco.png") no-repeat -32px -35px transparent;
 }
-.ppprev:active {
+.ppprev:active, .ppprevC:active {
     background: url("maccaco.png") no-repeat -32px -36px transparent;
 }
 

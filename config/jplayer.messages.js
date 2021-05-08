@@ -19,6 +19,8 @@ var projekktorMessages = (function (window, document, $, $p) {
         "golive": "na żywo",
         "scrubberdrag": "przewiń",
         "subtitlesbtn": "napisy",
+        "prevC": "poprzedni",
+        "nextC": "następny",
 
         // settings 
         "help": "pomoc:",

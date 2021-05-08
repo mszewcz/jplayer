@@ -301,11 +301,13 @@ projekktorConfig.prototype = {
             showCuePointGroups: ['midroll'],
             showOnIdle: true,
             showOnStart: false,
+            onPrevClick: null,
+            onNextClick: null,
             controlsTemplate: '<ul class="left"><li><div %{play}></div><div %{pause}></div></li></ul><ul class="right"><li><div %{logo}></div></li><li><div %{fsexit}></div><div %{fsenter}></div></li><li><div %{settingsbtn}></div></li><li><div %{subtitlesbtn}></div></li><li><div %{vmax}></div></li><li><div %{vslider}><div %{vmarker}></div><div %{vknob}></div></div></li><li><div %{mute}></div></li><li><div %{timeleft}>%{hr_elp}:%{min_elp}:%{sec_elp} | %{hr_dur}:%{min_dur}:%{sec_dur}</div></li><li><div %{golive}></div></li></ul><ul class="bottom"><li><div %{scrubber}><div %{loaded}></div><div %{playhead}></div><div %{scrubberknob}></div><div %{scrubberdrag}></div></div></li></ul><div %{scrubbertip}>%{hr_tip}:%{min_tip}:%{sec_tip}</div>'
         },
     /* settings plugin internal default config */
     plugin_settings: {
-        settingsMenu: '<ul id="quality" class="ppsettingslist active">' +
+        settingsMenu: '<ul data-id="quality" class="ppsettingslist active">' +
         '<li class="first label">%{quality}</li>' +
         '</ul>' +
         '<div class="ppclear"></div>',
@@ -315,31 +317,31 @@ projekktorConfig.prototype = {
         '<p><a class="btn cancel" href="#">%{ok}</a></p>' +
         '</div>',
         debugTpl: '<div data-pp-settings-func="toolwindow_debug">' +
-        '<div class="wizzard inactive" id="debug_1">' +
+        '<div class="wizzard inactive" data-id="debug_1">' +
         '<p><b>%{report}</b></p>' +
-        '<p><textarea id="message">%{please}</textarea></p>' +
+        '<p><textarea data-id="message">%{please}</textarea></p>' +
         '<p>' +
         '<a class="btn cancel" href="#">%{cancel}</a>' +
         '<a class="btn next" data-step="2" href="#">%{continue}</a>' +
         '</p>' +
         '</div>' +
-        '<div class="wizzard inactive" id="debug_2">' +
+        '<div class="wizzard inactive" data-id="debug_2">' +
         '<p><b>%{sendto}</b></p>' +
-        '<p><textarea id="result">%{please}</textarea></p>' +
+        '<p><textarea data-id="result">%{please}</textarea></p>' +
         '<p><a class="btn next" href="#" data-step="3">%{ok}</a></p>' +
         '</div>' +
-        '<div class="wizzard inactive" id="debug_3">' +
+        '<div class="wizzard inactive" data-id="debug_3">' +
         '<p>%{thanks}</p>' +
         '<p><a class="btn cancel" href="#">%{ok}</a></p>' +
         '</div>' +
         '</div>' +
         '<div data-pp-settings-func="toolwindow_error">' +
-        '<div class="wizzard inactive" id="error_1">' +
+        '<div class="wizzard inactive" data-id="error_1">' +
         '<p><b>%{error}<br/> %{sendto}</b></p>' +
-        '<p><textarea id="errortxt"></textarea></p>' +
+        '<p><textarea data-id="errortxt"></textarea></p>' +
         '<p><a class="btn next" href="#" data-step="3">%{ok}</a></p>' +
         '</div>' +
-        '<div class="wizzard inactive" id="error_2">' +
+        '<div class="wizzard inactive" data-id="error_2">' +
         '<p>%{thanks}</p>' +
         '<p><a class="btn cancel" href="#">%{ok}</a></p>' +
         '</div>' +

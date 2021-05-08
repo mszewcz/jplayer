@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="themes/jplayer/styles.min.css" type="text/css" media="screen"/>
 
     <!-- Load jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- load projekktor js -->
     <script type="text/javascript" src="jplayer.min.js"></script>
@@ -159,7 +159,7 @@
                                 url: '#',
                                 target: '_self',
                                 title: 'Related item 1',
-                                clickHandler: () => {
+                                clickHandler: function() {
                                     console.log('Related item 1 clicked');
                                     return false;
                                 }
@@ -169,7 +169,7 @@
                                 url: '#',
                                 target: '_self',
                                 title: 'Related item 2',
-                                clickHandler: () => {
+                                clickHandler: function() {
                                     console.log('Related item 2 clicked');
                                     return false;
                                 }
@@ -179,7 +179,7 @@
                                 url: '#',
                                 target: '_self',
                                 title: 'Related item 3',
-                                clickHandler: () => {
+                                clickHandler: function() {
                                     console.log('Related item 3 clicked');
                                     return false;
                                 }
@@ -189,7 +189,7 @@
                                 url: '#',
                                 target: '_self',
                                 title: 'Related item 4',
-                                clickHandler: () => {
+                                clickHandler: function() {
                                     console.log('Related item 4 clicked');
                                     return false;
                                 }

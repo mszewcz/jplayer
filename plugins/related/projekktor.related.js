@@ -75,7 +75,6 @@
             // related video list:
             var cssprefix = this.getConfig('ns'),
                 div = $('<div>').addClass(cssprefix + 'relatedone'),
-                list = $('<ul>'),
                 ref = this,
                 title = '',
                 acEnabled = this.getConfig('related').autoContinue.enabled,
@@ -90,8 +89,8 @@
             // add replay tile:
             if (this.getConfig('replay').enabled) {
                 title = this.getConfig('replay').title;
-                list.append(
-                    $('<li>')
+                div.append(
+                    $('<div>')
                         .addClass(cssprefix + 'relatedreplay')
                         .append(title ? $('<h2>').html(title) : false)
                         .append($('<div>')
@@ -130,8 +129,8 @@
             // add embed tile:
             if (this.getConfig('embed').enabled) {
                 title = this.getConfig('embed').title;
-                list.append(
-                    $('<li>')
+                div.append(
+                    $('<div>')
                         .addClass(cssprefix + 'relatedembed')
                         .append((title) ? $('<h2/>').html(title) : false)
                         .append(
@@ -153,8 +152,8 @@
             // add share tile:
             if (this.getConfig('share').enabled) {
                 title = this.getConfig('share').title;
-                list.append(
-                    $('<li>')
+                div.append(
+                    $('<div>')
                         .addClass(cssprefix + 'relatedshare')
                         .append((title) ? $('<h2/>').html(title) : false)
                         .append(
@@ -173,7 +172,7 @@
                 );
             }
 
-            this._myContent.append(div.append(list));
+            this._myContent.append(div);
         },
         _buildRelated: function () {
             // related video list:
@@ -218,6 +217,7 @@
                             t.relatedSVG.removeClass('active').addClass('inactive');
                             clearTimeout(t.relatedTimeout);
                         }
+                        t.setInactive();
                         item.clickHandler();
                     });
                 }
@@ -245,6 +245,8 @@
                     }
                 }
             });
+
+            this.setInactive();
 
             if (typeof itemCH === 'function') {
                 itemCH.call();
