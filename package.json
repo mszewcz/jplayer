@@ -2,7 +2,7 @@
     "name": "jplayer",
     "title": "JPlayer",
     "description": "HTML5 based video player",
-    "version": "1.9.16",
+    "version": "1.9.17",
     "author": "Radosław Włodkowski <radoslaw@wlodkowski.net>",
     "contributors": [
         {
@@ -20,7 +20,7 @@
         "dashjs": "^3.2.2",
         "hls.js": "^1.0.2",
         "jquery": "^3.6.0",
-        "projekktor": "github:mszewcz/projekktor#1.9.9"
+        "projekktor": "github:mszewcz/projekktor#1.9.10"
     },
     "devDependencies": {
         "browserify": "^17.0.0",
