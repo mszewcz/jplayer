@@ -2,7 +2,7 @@
     "name": "jplayer",
     "title": "JPlayer",
     "description": "HTML5 based video player",
-    "version": "1.9.17",
+    "version": "1.9.20",
     "author": "Radosław Włodkowski <radoslaw@wlodkowski.net>",
     "contributors": [
         {
@@ -16,24 +16,25 @@
         "start": "grunt preview"
     },
     "dependencies": {
-        "core-js": "^3.11.1",
-        "dashjs": "^3.2.2",
-        "hls.js": "^1.0.2",
-        "jquery": "^3.6.0",
-        "projekktor": "github:mszewcz/projekktor#1.9.10"
+        "core-js": "^3.37.1",
+        "dashjs": "^4.7.4",
+        "grunt-contrib-concat": "^2.1.0",
+        "hls.js": "^1.5.11",
+        "jquery": "^3.7.1",
+        "projekktor": "github:mszewcz/projekktor#1.9.20"
     },
     "devDependencies": {
         "browserify": "^17.0.0",
-        "grunt": "^1.4.0",
+        "grunt": "^1.6.1",
         "grunt-browser-sync": "^2.2.0",
         "grunt-bump": "^0.8.0",
         "grunt-compare-size": "^0.4.2",
-        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-clean": "^2.0.1",
         "grunt-contrib-compress": "^2.0.0",
         "grunt-contrib-copy": "^1.0.0",
-        "grunt-contrib-cssmin": "^4.0.0",
+        "grunt-contrib-cssmin": "^5.0.0",
         "grunt-contrib-jshint": "^3.0.0",
-        "grunt-contrib-uglify": "^5.0.1",
+        "grunt-contrib-uglify": "^5.2.2",
         "grunt-contrib-watch": "^1.1.0",
         "grunt-lineending": "^1.0.0",
         "gzip-js": "^0.3.2"
