@@ -2,7 +2,7 @@
     "name": "jplayer",
     "title": "JPlayer",
     "description": "HTML5 based video player",
-    "version": "1.9.21",
+    "version": "1.9.20",
     "author": "Radosław Włodkowski <radoslaw@wlodkowski.net>",
     "contributors": [
         {
@@ -21,7 +21,7 @@
         "grunt-contrib-concat": "^2.1.0",
         "hls.js": "^1.5.11",
         "jquery": "^3.7.1",
-        "projekktor": "github:mszewcz/projekktor#1.9.21"
+        "projekktor": "github:mszewcz/projekktor#1.9.20"
     },
     "devDependencies": {
         "browserify": "^17.0.0",
